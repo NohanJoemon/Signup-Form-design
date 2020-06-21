@@ -1,0 +1,80 @@
+
+body {
+  background-image:url("images/bg-intro-desktop.png");
+  background-color:hsl(0, 100%, 74%) ;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+}
+
+ .container {
+  width:80%;
+  height:100%;
+  margin:auto;
+}
+.contentleft {
+  display:inline;
+  width:50%;
+  color:#fff;
+  float:left;
+  padding:0 30px;
+	box-sizing: border-box;
+}
+.contentright {
+  display:inline;
+  width:50%;
+  float:right;
+  padding:16px;
+  margin:auto;
+  text-align:center;
+	box-sizing: border-box;
+}
+.contentright .blue_button {
+  color:white;
+  background-color: hsl(248, 32%, 49%);
+  padding:16px;
+  border-radius: 10px;
+}
+.contentright .white_box {
+  background-color: white;
+  width:100%;
+  padding-top:30px;
+  padding-bottom:30px;
+  border-radius: 10px;
+  margin-top:15px;
+  margin-bottom: 0;
+}
+.white_box .form_box div input,.white_box .form_box div .button , .white_box h6{
+  width:80%;
+  margin:10px;
+  margin-left:10%;
+  margin-right:10%;
+  padding:16px;
+  padding-right:0;
+  border: solid black 1px;
+  border-radius: 7px;
+  box-sizing: border-box;
+}
+
+.form_box div .button{
+  background-color: hsl(154, 59%, 51%);
+  color:white;
+  border: 0;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.white_box h6 {
+  border: 0;
+  color: hsl(246, 25%, 77%);
+
+}
+.white_box h6 span {
+  color:hsl(0, 100%, 74%);
+}
+@media(max-width:375px) {
+  .contentright, .contentleft {
+    float:none;
+    ]text-align: center;
+    display:block;
+  }
+
+}
