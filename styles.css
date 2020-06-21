@@ -1,80 +1,113 @@
-
+body, html {
+  margin:0;
+  padding:0;
+}
+html {
+  padding:0;
+}
 body {
   background-image:url("images/bg-intro-desktop.png");
   background-color:hsl(0, 100%, 74%) ;
   font-size: 16px;
   font-family: 'Poppins', sans-serif;
+  text-align: center;
 }
 
  .container {
-  width:80%;
-  height:100%;
-  margin:auto;
+  width:90%;
+  margin:5% auto;
+  align-items:center;
 }
 .contentleft {
-  display:inline;
-  width:50%;
   color:#fff;
-  float:left;
-  padding:0 30px;
-	box-sizing: border-box;
+  flex:1;
+  margin-bottom: 30px;
+  padding:3%;
+}
+.contentleft h1 {
+  font-size: 200%;
+  text-shadow:2px 0;
 }
 .contentright {
-  display:inline;
-  width:50%;
-  float:right;
-  padding:16px;
-  margin:auto;
-  text-align:center;
-	box-sizing: border-box;
+flex:1;
+flex-direction: column;
+justify-content: space-around;
+padding:2%;
 }
 .contentright .blue_button {
+
   color:white;
   background-color: hsl(248, 32%, 49%);
-  padding:16px;
+  text-align:center;
   border-radius: 10px;
+  padding:1em 4em;
+  box-shadow: 0 7px rgba(0,0,0,0.15);
+}
+.contentright .blue_button:hover {
+  background-color:  hsl(249, 10%, 26%) ;
 }
 .contentright .white_box {
   background-color: white;
-  width:100%;
-  padding-top:30px;
-  padding-bottom:30px;
   border-radius: 10px;
-  margin-top:15px;
-  margin-bottom: 0;
+  margin-top: 10%;
+  margin-bottom:10%;
+  padding:4% 3% 4% 3%;
+  box-shadow: 0 7px rgba(0,0,0,0.15);
+}
+.form_box {
+  padding:0;
+  flex-direction: column;
+  width:90%;
+  margin:auto;
 }
 .white_box .form_box div input,.white_box .form_box div .button , .white_box h6{
-  width:80%;
-  margin:10px;
-  margin-left:10%;
-  margin-right:10%;
-  padding:16px;
-  padding-right:0;
-  border: solid black 1px;
+  width:100%;
+  flex:1;
+  margin-top: 3.5%;
+  font-weight: bold;
+  padding:1em 4em;
+  border: solid #eee 0.2px;
   border-radius: 7px;
   box-sizing: border-box;
 }
 
 .form_box div .button{
   background-color: hsl(154, 59%, 51%);
+  box-shadow:inset 0 -7px 7px -7px green;
   color:white;
   border: 0;
   text-transform: uppercase;
   font-weight: bold;
 }
+
+.form_box div .button:hover {
+  background-color:  hsl(249, 10%, 26%) ;
+}
 .white_box h6 {
+  width:80%;
+  padding:3%;
+  margin:0 auto 0 auto;
   border: 0;
   color: hsl(246, 25%, 77%);
 
 }
-.white_box h6 span {
+.white_box h6 a {
   color:hsl(0, 100%, 74%);
+  text-decoration: none;
 }
-@media(max-width:375px) {
-  .contentright, .contentleft {
-    float:none;
-    ]text-align: center;
-    display:block;
+footer {
+  background:rgba(255,0,0,0.3);
+  color:white;
+  padding:5px;
+  margin-bottom: 0;
   }
-
+@media(min-width:375px) {
+  .container, .contentright, .form_box {
+display:flex;
+  }
+.contentleft {
+  text-align: left;
+}
+.contentleft h1 {
+  font-size: 300%;
 }
