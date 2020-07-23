@@ -1,4 +1,4 @@
-# Web-dev-challenge-2
+# Web-dev-challenge-1
 ## DESCRIPTION
 This is the solution of first task of IITM Webops team. The question for the same is attached.
 ## TOPICS USED
