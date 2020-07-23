@@ -65,15 +65,17 @@ body {
   border: solid #aaa 0.1em;
   border-radius: 0.7em;
   box-sizing: border-box;
+  outline: none;
 }
 
 .form_box div .button{
   background-color: hsl(154, 59%, 51%);
-   box-shadow:inset 0 -7px 7px -7px green;
+  box-shadow:inset 0 -7px 7px -7px green;
   color:white;
   border: 0;
   margin-bottom: 0.5em;
   text-transform: uppercase;
+  outline:none;
 }
 .form_box div .button:hover {
   background-color:  hsl(249, 10%, 26%) ;
