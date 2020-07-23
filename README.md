@@ -1,3 +1,6 @@
-# Web-dev-Challenge-1
-IITM Webops team challenge
-This is my first project in web development. I have used CSS flexbox to make the webpage maximum responsive. 
+# Web-dev-challenge-1
+## DESCRIPTION
+This is the solution of first task of IITM Webops team. The question for the same is attached.
+## TOPICS USED
+HTML, CSS, CSS Flexbox 
+
