@@ -1,6 +1,7 @@
 # SIGNUP FORM TEMPLATE 
 (Front-End Web development challenge)
 
+![Design preview for the Intro component with sign up form coding challenge](challenge_details/design/desktop-preview.jpg)
 ## Details of the challenge(hosted by [Frontend Mentor](https://www.frontendmentor.io/)):
 
 [Challenge link](https://www.frontendmentor.io/challenges/intro-component-with-signup-form-5cf91bd49edda32581d28fd1) 
