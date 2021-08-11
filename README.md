@@ -10,8 +10,8 @@
 ## My solution to the challenge:
 Check [this folder](my_solution) to view my entire solution to the challenge (including codes in HTML and CSS)
 
-## Link of the webpage where I hosted my solution:
-Check [this](https://nohansignupform.netlify.app/) webpage. I hosted my webpage using [Netlify](netlify.com)
+## Webpage link:
+I hosted my solution in [this](https://nohansignupform.netlify.app/)  webpage with the help of [Netlify](netlify.com)
 
 
 ## Frameworks/topics used in my code
